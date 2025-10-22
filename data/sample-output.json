@@ -1,0 +1,259 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/book1/manifest",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Exemple de Livre Numérique"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Titre"
+        ]
+      },
+      "value": {
+        "none": [
+          "Histoire de l'Art"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Auteur"
+        ]
+      },
+      "value": {
+        "none": [
+          "Marie Dubois"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Éditeur"
+        ]
+      },
+      "value": {
+        "none": [
+          "Éditions Exemple"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Date de publication"
+        ]
+      },
+      "value": {
+        "none": [
+          "2025"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "ISBN"
+        ]
+      },
+      "value": {
+        "none": [
+          "978-3-16-148410-0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Langue"
+        ]
+      },
+      "value": {
+        "none": [
+          "Français"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Pages"
+        ]
+      },
+      "value": {
+        "none": [
+          "3"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "none": [
+      "Un exemple de livre numérique avec plusieurs pages"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://example.org/iiif/book1/thumb.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "rights": "http://creativecommons.org/licenses/by/4.0/",
+  "provider": [
+    {
+      "id": "https://bibliotheque.example.org",
+      "type": "Agent",
+      "label": {
+        "none": [
+          "Bibliothèque Nationale"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://bibliotheque.example.org",
+          "type": "Text",
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://bibliotheque.example.org/logo.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://bibliotheque.example.org/books/1",
+      "type": "Text",
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/iiif/book1/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 2000,
+      "width": 1500,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/canvas/p1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/canvas/p1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://example.org/iiif/book1/images/p1.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2000,
+                "width": 1500,
+                "service": [
+                  {
+                    "id": "https://example.org/iiif/book1/images/p1",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/book1/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 2000,
+      "width": 1500,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/canvas/p2/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/canvas/p2/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://example.org/iiif/book1/images/p2.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2000,
+                "width": 1500,
+                "service": [
+                  {
+                    "id": "https://example.org/iiif/book1/images/p2",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/book1/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 2000,
+      "width": 1500,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/canvas/p3/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/canvas/p3/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://example.org/iiif/book1/images/p3.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2000,
+                "width": 1500,
+                "service": [
+                  {
+                    "id": "https://example.org/iiif/book1/images/p3",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/book1/canvas/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "https://example.org/iiif/book1/manifest",
+  "label": "Exemple de Livre Numérique",
+  "summary": "Un exemple de livre numérique avec plusieurs pages",
+  "metadata": {
+    "Titre": "Histoire de l'Art",
+    "Auteur": "Marie Dubois",
+    "Éditeur": "Éditions Exemple",
+    "Date de publication": "2025",
+    "ISBN": "978-3-16-148410-0",
+    "Langue": "Français",
+    "Pages": "3"
+  },
+  "rights": "http://creativecommons.org/licenses/by/4.0/",
+  "thumbnail": [
+    {
+      "id": "https://example.org/iiif/book1/thumb.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "provider": {
+    "id": "https://bibliotheque.example.org",
+    "label": "Bibliothèque Nationale",
+    "homepage": "https://bibliotheque.example.org",
+    "logo": [
+      {
+        "id": "https://bibliotheque.example.org/logo.png",
+        "type": "Image"
+      }
+    ]
+  },
+  "homepage": "https://bibliotheque.example.org/books/1",
+  "items": [
+    {
+      "id": "https://example.org/iiif/book1/canvas/p1",
+      "label": "Page 1",
+      "height": 2000,
+      "width": 1500,
+      "items": {
+        "body": {
+          "id": "https://example.org/iiif/book1/images/p1.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 2000,
+          "width": 1500,
+          "service": {
+            "id": "https://example.org/iiif/book1/images/p1",
+            "profile": "level2"
+          }
+        }
+      }
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p2",
+      "label": "Page 2",
+      "height": 2000,
+      "width": 1500,
+      "items": {
+        "body": {
+          "id": "https://example.org/iiif/book1/images/p2.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 2000,
+          "width": 1500,
+          "service": {
+            "id": "https://example.org/iiif/book1/images/p2",
+            "profile": "level2"
+          }
+        }
+      }
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p3",
+      "label": "Page 3",
+      "height": 2000,
+      "width": 1500,
+      "items": {
+        "body": {
+          "id": "https://example.org/iiif/book1/images/p3.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 2000,
+          "width": 1500,
+          "service": {
+            "id": "https://example.org/iiif/book1/images/p3",
+            "profile": "level2"
+          }
+        }
+      }
+    }
+  ]
+}
